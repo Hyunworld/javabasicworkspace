@@ -1,0 +1,15 @@
+package jdbc.example.step2;
+
+public class MembersDAO implements IMembersDAO{
+
+		private String url = "jdbc:oracle:thin:@localhost:1521/XEPDB1"; //18c
+		private String uid = "hr"; //계쩡명
+		private String upw = "hr"; //비밀번호
+		
+	//조회기능(id를 받아서 조회)
+	public Members select(String id) {
+		
+	}
+	
+	
+}

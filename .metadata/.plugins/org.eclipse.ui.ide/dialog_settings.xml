@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\user\Desktop\JDBC.zip"/>
+			<item value="C:\Users\user\Desktop\최신.zip"/>
+			<item value="C:\Users\user\Desktop\d.zip"/>
+			<item value="C:\Users\user\Desktop\월요일.zip"/>
+			<item value="C:\Users\user\Desktop\화요일.zip"/>
+			<item value="C:\Users\user\Desktop\시작.zip"/>
+			<item value="C:\Users\user\Desktop\200224.zip"/>
+			<item value="C:\Users\user\Desktop\210222.zip"/>
+			<item value="C:\Users\user\Desktop\이거로수업.zip"/>
+			<item value="C:\Users\user\Desktop\df.zip"/>
+			<item value="C:\Users\user\Desktop\이걸옮겨라.zip"/>
+			<item value="C:\Users\user\Desktop\이클립스\eclipse\Day01.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="659"/>
+		<item key="DIALOG_Y_ORIGIN" value="341"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

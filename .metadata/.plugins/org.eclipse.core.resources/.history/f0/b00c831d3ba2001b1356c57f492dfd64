@@ -1,0 +1,63 @@
+package jdbc.example.step2;
+
+import java.util.Scanner;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		//모델객체생성
+		IMembersDAO dao = new MembersDAO();
+				
+		
+		while(true) {
+			
+			System.out.println("=========메뉴선택=========");
+			System.out.println("[1.회원조회 2.회원추가 3.회원수정 4.회원삭제]");
+			
+			System.out.print("선택>");
+			String menu = scan.next();
+			
+			switch (menu) {
+			case "1":
+				System.out.print("조회할ID>");
+				String id = scan.next(); 
+				
+				Members vo = dao.select(id);
+				
+				if(vo == null) { //데이터가 없는경우
+					System.out.println("존재하지 않는 아이디입니다");
+				} else {
+					System.out.println("아이디:" + vo.getId());
+					System.out.println("비밀번호:" + vo.getPw());
+					System.out.println("이름:" + vo.getName());
+					System.out.println("이메일:" + vo.getEmail());
+				}
+
+				break;
+			case "2":
+				//insert메서드는 반환을 int로 받아서 처리.
+				
+				break;
+			case "3":
+				//....
+				break;
+			case "4":
+				//....
+				break;
+
+
+			default:
+				break;
+			}
+			
+			
+			
+			
+		}
+		
+		
+		
+	}
+}

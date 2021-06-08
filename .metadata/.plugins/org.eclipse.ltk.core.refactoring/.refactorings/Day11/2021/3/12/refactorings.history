@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;apl.lang.sb&apos; to &apos;api.lang.sb&apos;&#x0D;&#x0A;- Original project: &apos;Day11&apos;&#x0D;&#x0A;- Original element: &apos;Day11/src/apl.lang.sb&apos;&#x0D;&#x0A;- Renamed element: &apos;Day11/src/api.lang.sb&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;apl.lang.sb&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;apl.lang.sb" name="api.lang.sb" qualified="false" references="true" stamp="1615861338014" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package jdbc.example.step2;
+
+public interface IMembersDAO {
+	//사용방법 정의
+	Members select(String id);
+	
+}
